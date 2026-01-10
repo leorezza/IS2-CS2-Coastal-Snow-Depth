@@ -8,5 +8,5 @@ The code was produced as part of a Master’s thesis carried out at the
 Technical University of Denmark (DTU), in collaboration with UNIS (The
 University Centre in Svalbard), and is intended for research and 
 reproducibility purposes. Input data are not provided and must be 
-
 obtained from the original providers.
+
