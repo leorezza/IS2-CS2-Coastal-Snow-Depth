@@ -5,8 +5,8 @@ months = categorical({'Nov 2021','Dec 2021','Jan 2022', ...
 months = reordercats(months, categories(months));
 
 % ATL07-like
-mean_mine_sv   = [0.1330 0.2622 0.2213 0.2663 0.2225 0.1707];
-median_mine_sv = [0.1171 0.2765 0.2048 0.2588 0.2328 0.1840];
+mean_atl07like_sv   = [0.1330 0.2622 0.2213 0.2663 0.2225 0.1707];
+median_atl07like_sv = [0.1171 0.2765 0.2048 0.2588 0.2328 0.1840];
 
 mean_mine_gl   = [0.2007 0.2449 0.2573 0.2348 0.2546 0.3385];
 median_mine_gl = [0.1958 0.2374 0.2484 0.2151 0.2076 0.2897];
@@ -43,8 +43,8 @@ col_ext_mean  = [0.60 0.80 0.95];
 figure('Color','w');
 
 subplot(1,2,1); hold on
-plot(months, median_mine_sv,'-o','Color',col_mine_med,'LineWidth',1.8,'MarkerFaceColor',col_mine_med)
-plot(months, mean_mine_sv,  '-o','Color',col_mine_mean,'LineWidth',1.8,'MarkerFaceColor',col_mine_mean)
+plot(months, median_atl07like_sv,'-o','Color',col_mine_med,'LineWidth',1.8,'MarkerFaceColor',col_mine_med)
+plot(months, mean_atl07like_sv,  '-o','Color',col_mine_mean,'LineWidth',1.8,'MarkerFaceColor',col_mine_mean)
 plot(months, median_mw_sv,  '-s','Color',col_ext_med,'LineWidth',1.8,'MarkerFaceColor',col_ext_med)
 plot(months, mean_mw_sv,    '-s','Color',col_ext_mean,'LineWidth',1.8,'MarkerFaceColor',col_ext_mean)
 ylim([0 0.4])
@@ -69,8 +69,8 @@ grid on; box on; xtickangle(45)
 figure('Color','w');
 
 subplot(1,2,1); hold on
-plot(months, median_mine_sv,'-o','Color',col_mine_med,'LineWidth',1.8,'MarkerFaceColor',col_mine_med)
-plot(months, mean_mine_sv,  '-o','Color',col_mine_mean,'LineWidth',1.8,'MarkerFaceColor',col_mine_mean)
+plot(months, median_atl07like_sv,'-o','Color',col_mine_med,'LineWidth',1.8,'MarkerFaceColor',col_mine_med)
+plot(months, mean_atl07like_sv,  '-o','Color',col_mine_mean,'LineWidth',1.8,'MarkerFaceColor',col_mine_mean)
 plot(months, median_ct_sv,  '-d','Color',col_ext_med,'LineWidth',1.8,'MarkerFaceColor',col_ext_med)
 plot(months, mean_ct_sv,    '-d','Color',col_ext_mean,'LineWidth',1.8,'MarkerFaceColor',col_ext_mean)
 ylim([0 0.4])
@@ -92,8 +92,8 @@ grid on; box on; xtickangle(45)
 figure('Color','w');
 
 subplot(1,2,1); hold on
-plot(months, median_mine_sv,'-o','Color',col_mine_med,'LineWidth',1.8,'MarkerFaceColor',col_mine_med)
-plot(months, mean_mine_sv,  '-o','Color',col_mine_mean,'LineWidth',1.8,'MarkerFaceColor',col_mine_mean)
+plot(months, median_atl07like_sv,'-o','Color',col_mine_med,'LineWidth',1.8,'MarkerFaceColor',col_mine_med)
+plot(months, mean_atl07like_sv,  '-o','Color',col_mine_mean,'LineWidth',1.8,'MarkerFaceColor',col_mine_mean)
 plot(months, median_t_sv,   '-d','Color',col_ext_med,'LineWidth',1.8,'MarkerFaceColor',col_ext_med)
 plot(months, mean_t_sv,     '-d','Color',col_ext_mean,'LineWidth',1.8,'MarkerFaceColor',col_ext_mean)
 ylim([0 0.4])

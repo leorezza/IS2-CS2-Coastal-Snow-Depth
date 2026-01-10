@@ -1,4 +1,4 @@
-% Batch processing of ATL03 multi-beam data with daily parquet export.
+% Batch processing of ATL03 multi-beam data with daily parquet export
 
 clear; clc; close all;
 
