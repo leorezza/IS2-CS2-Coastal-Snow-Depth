@@ -1,4 +1,4 @@
-# ICESat-2 & CryoSat-2 Snow Depth Estimation over Arctic Sea Ice
+# ICESat-2 & CryoSat-2 Snow Depth Estimation over Arctic Sea Ice 
 
 This repository contains a suite of MATLAB scripts developed to estimate snow depth on Arctic sea ice by synergetically combining laser altimetry (**ICESat-2**) and radar altimetry (**CryoSat-2**).
 
